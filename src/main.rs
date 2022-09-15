@@ -11,6 +11,6 @@ fn main() {
     eframe::run_native(
         "eframe template",
         native_options,
-        Box::new(|cc| Box::new(web_test::ClassNotes::new(cc))),
+        Box::new(|cc| Box::new(midfi_maker::ClassNotes::new(cc))),
     );
 }

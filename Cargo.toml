@@ -1,13 +1,13 @@
 [package]
-name = "web_test"
-default-run = "web_test_bin"
+name = "midfi_maker"
+default-run = "midfi_maker_bin"
 version = "0.1.0"
 authors = ["Gabriel Lee <g.lee13770334@gmail.com>"]
 edition = "2021"
 rust-version = "1.60"
 
 [[bin]]
-name = "web_test_bin"
+name = "midfi_maker_bin"
 path = "src/main.rs"
 
 [lib]
